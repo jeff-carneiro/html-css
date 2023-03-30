@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Trabalhando com links</h1>
+    <h2>Usando links externos</h2>
+        <p>Você pode acessar o <a href="https://www.canva.com">site do Canva</a> daqui SEM abrir uma nova aba (não recomendado para links externos).</p>
+        <p>Você pode acessar o <a href="https://www.canva.com" target="_blank" rel="external">site do Canva</a> daqui abrindo uma NOVA aba e mantendo esta (recomendado para links externos).</p>
+    <h2>Usando links internos</h2>
+        <p>Esta é a primeira página do site, <a href="pag2.html" rel="next">clique aqui</a> para ir para a segunda página.</p>
+        <p>Você também pode acessar a página de notícias <a href="notícias/pag3.html" target="_self" rel="next">clicando aqui</a>. <!--Quando a página é do próprio site o "target" é opcional, mas posso usar com o "_self"--></p>
+    <h2>Links para downloads</h2>
+        <ul>
+            <li><a href="pdf/android-chrome-192x192.png" target="_blank" download="android-chrome-192x192.png" type="image/png"> Baixar arquivo img.</a></li>
+            <li><a href="pdf/favicon_io.zip" download="favicon_io.zip" type="application/zip"> Baixar arquivo zip.</a></li>
+        </ul>
+        <p>site da <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="external">iana.org</a> para ver media types dos formatos de arquivos.</p>
+</body>
+</html>

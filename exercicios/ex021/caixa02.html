@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(243, 255, 247);
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(239, 223, 255);
+            padding: 2px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(93, 0, 146);
+            margin-right: 5px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+        article > aside {
+            background-color: rgb(239, 223, 255);
+        }
+        footer {
+            background-color: rgb(10, 10, 10);
+            color: white;
+            text-align: center;
+            width: auto;
+            padding: 10px;
+            margin: 0px;
+        }
+        h1 {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="notícias">
+            <article>
+                <h2>Notícia de hoje</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A suscipit numquam omnis temporibus facere vitae dicta, in molestias culpa, laborum assumenda cupiditate debitis ab quisquam nihil similique, excepturi esse ullam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nisi voluptatum amet veritatis vel consectetur ratione architecto itaque odit culpa similique facere voluptas, dolorem maxime cum labore blanditiis delectus ipsam?</p>
+                <aside>
+                    Artigo escrito por alguém (Avá)
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Jeffcs
+    </footer>
+</body>
+</html>
