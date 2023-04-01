@@ -6,26 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E S P A Ç O...</title>
     <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-
         body {
             height: 98vh;
             background-image: url(imagens/espaco.jpg);
-            background-size: 100%;
+            background-position: center center;
+            background-size: cover;
         }
 
-        div.fixa {
-            position: center center;
+        #container{
+            background-size: 100% 100%;
         }
 
+        #astronauta {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
-<body>
-    <div class="fixa">
-        <img src="imagens/astronauta.png" alt="Astronauta">
-    </div>
+<body> 
+    <section id="container">
+        <img id="astronauta" src="imagens/astronauta.png" alt="Astronauta">
+    </section>
 </body>
 </html>
